@@ -1,8 +1,24 @@
 {
+  "name": "logo_maker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
-    "babel": "^6.23.0",
-    "fs": "^0.0.1-security",
-    "inquirer": "^10.0.1",
+    "inquirer": "^8.2.4",
+    "inquirer-maxlength-input-prompt": "^1.0.2",
+    "validate-color": "^2.2.4"
+  },
+  "devDependencies": {
     "jest": "^29.7.0"
-  }
+}
 }
